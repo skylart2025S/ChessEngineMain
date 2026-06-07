@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/msys64/home/skyla/projects/chess_project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DTERMINAL_MODE=1 -g -Wall -Wextra -o CMakeFiles\\chess_terminal.dir\\main.c.obj -c C:\\msys64\\home\\skyla\\projects\\chess_project\\main.c",
+  "file": "C:/msys64/home/skyla/projects/chess_project/main.c",
+  "output": "C:/msys64/home/skyla/projects/chess_project/build/CMakeFiles/chess_terminal.dir/main.c.obj"
+},
+{
+  "directory": "C:/msys64/home/skyla/projects/chess_project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGUI_MODE=1 -g -Wall -Wextra -o CMakeFiles\\chess_gui.dir\\main.c.obj -c C:\\msys64\\home\\skyla\\projects\\chess_project\\main.c",
+  "file": "C:/msys64/home/skyla/projects/chess_project/main.c",
+  "output": "C:/msys64/home/skyla/projects/chess_project/build/CMakeFiles/chess_gui.dir/main.c.obj"
+},
+{
+  "directory": "C:/msys64/home/skyla/projects/chess_project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGUI_MODE=1 -g -Wall -Wextra -o CMakeFiles\\chess_gui.dir\\display.c.obj -c C:\\msys64\\home\\skyla\\projects\\chess_project\\display.c",
+  "file": "C:/msys64/home/skyla/projects/chess_project/display.c",
+  "output": "C:/msys64/home/skyla/projects/chess_project/build/CMakeFiles/chess_gui.dir/display.c.obj"
+}
+]

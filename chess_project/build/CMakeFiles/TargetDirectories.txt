@@ -1,0 +1,4 @@
+C:/msys64/home/skyla/projects/chess_project/build/CMakeFiles/chess_terminal.dir
+C:/msys64/home/skyla/projects/chess_project/build/CMakeFiles/chess_gui.dir
+C:/msys64/home/skyla/projects/chess_project/build/CMakeFiles/edit_cache.dir
+C:/msys64/home/skyla/projects/chess_project/build/CMakeFiles/rebuild_cache.dir
