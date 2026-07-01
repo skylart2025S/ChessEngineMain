@@ -44,42 +44,6 @@ cmake --build build
 - `,` / `.` decrease/increase AI think time (ms)
 - `ESC` quit
 
-## Engine API (`chess.h`)
-
-- Move and state:
-  - `is_valid`
-  - `move_piece`
-  - `generate_legal_moves`
-  - `make_move`
-  - `undo_move`
-  - `in_check`
-  - `in_checkmate`
-  - `is_draw`
-  - `is_draw_by_repetition`
-  - `is_draw_by_fifty_move`
-- Evaluation:
-  - `evaluate_material`
-  - `evaluate_position`
-- Search:
-  - `find_best_move`
-  - `find_best_move_timed`
-  - `get_last_search_stats`
-- Validation:
-  - `perft`
-
-## Architecture
-
-- `main.c`
-  - board state and rules
-  - move generation and validation
-  - evaluation and search
-  - terminal mode and CLI tools (`--perft`, `--bench`)
-- `display.c`
-  - SDL rendering
-  - input handling
-  - AI turn orchestration
-- `chess.h`
-  - shared engine types and API
 
 ## Tooling
 
