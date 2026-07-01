@@ -81,31 +81,6 @@ cmake --build build
 - `chess.h`
   - shared engine types and API
 
-## UML (text)
-
-```text
-+--------------------+
-|   struct Bitboard  |
-|--------------------|
-| color[2]           |
-| piece[6]           |
-+--------------------+
-
-+--------------------+        +-------------------------+
-|       Move         |        |        MoveUndo         |
-|--------------------|        |-------------------------|
-| from, to           |        | move                    |
-| piece, color       |        | previous_board          |
-| captured_*         |        | prev_castling_rights    |
-| promotion_piece    |        | prev_en_passant_square  |
-| flags              |        | prev_halfmove_clock     |
-|                    |        | prev_history_count      |
-|                    |        +-------------------------+
-+--------------------+
-
-GUI (display.c) --> Engine API (chess.h/main.c)
-```
-
 ## Tooling
 
 - Perft regression:
